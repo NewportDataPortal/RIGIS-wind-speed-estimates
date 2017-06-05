@@ -1,0 +1,261 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: RI Energy Office
+      Originator: Applied Technology Management
+      Originator: AWS TrueWind
+      Publication_Date: 20070401
+      Title: Wind Speed Estimates; RIWind_80m
+      Edition: none
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: http://www.rigis.org
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: RI Office of Energy Resources
+          Originator: Applied Technology Management
+          Publication_Date: 20070401
+          Publication_Time: Unknown
+          Title: Final Report RIWINDS Phase 1: Wind Energy Siting Study
+          Online_Linkage: http://www.energy.ri.gov/documents/independence1/RIWINDSReport.pdf
+  Description:
+    Abstract:
+      Wind Speed Estimates interpolated for 80m elevation by Applied Technology & Management from original data estimates at 50m & 100m produced by TrueWind Solutions using their Mesomap system and historical weather data.  This work was commissioned by the Massachusetts Technology Collaborative, in conjunction with the Connecticut Clean Energy Fund and Northeast Utilities, and the results have been validated by NREL.
+      NOTE: data is not suitable for micro-siting potential development projects.  This shapefile was generated from a raster dataset with a 200 m resolution, in a UTM zone 19 datum WGS 84 projection system.  As the data exists and as distributed from RIGIS the data are in NAD83 Rhode Island State Plane Coordinates in US Survey feet
+    Purpose: General planning of Wind Power Development for Rhode Island
+    Supplemental_Information:
+      To further understand the objectives, assumptions and methodology used in generating 
+      the resulting areas provided in these files, the following report should be consulted:
+      FINAL REPORT
+      RIWINDS PHASE I: WIND ENERGY SITING STUDY April 2007
+      http://www.energy.ri.gov/documents/independence1/RIWINDSReport.pdf
+      Prepared By
+      Applied Technology and Management, Inc.
+      Loria Emerging Energy Consulting, LLC
+      Maguire Group, Inc
+      TRC Companies, Inc.
+      Birch Tree Capital, LLC
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20070407
+        Time_of_Day: unknown
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.912439
+      East_Bounding_Coordinate: -71.052182
+      North_Bounding_Coordinate: 42.018935
+      South_Bounding_Coordinate: 40.965568
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: utilitiesCommunication
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: Wind Speed
+      Theme_Keyword: Renewable Energy
+    Place:
+      Place_Keyword_Thesaurus: GNIS
+      Place_Keyword: United States
+      Place_Keyword: Northeast
+      Place_Keyword: New England
+      Place_Keyword: Rhode Island
+  Access_Constraints: None.
+  Use_Constraints:
+    his dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+    Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products. Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+    This 80m wind data layer was derived by ATM from the 50m & 100m elevation AWS Truewind data.  Data and images derived from this data set should provide credtit to ATM and AWS Truewind as informational sources.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Rhode Island Division of Planning
+        Contact_Person: Shane White
+      Contact_Position: RIGIS Coordinator
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: One Capitol Hill
+        City: Providence
+        State_or_Province: RI
+        Postal_Code: 02908-5872
+      Contact_Voice_Telephone: 401-222-6483
+      Contact_Electronic_Mail_Address: shane.white@doa.ri.gov
+  Data_Set_Credit: Rhode Island Office of Energy Resources
+  Security_Information:
+    Security_Classification_System: none
+    Security_Classification: Unclassified
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: See Accompanying study report
+  Logical_Consistency_Report: Consistent with accompanying study specificaitons
+  Completeness_Report: See accompanying study
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: RIGIS 1:5000 scale background information- plus or minus 15 meters
+      Quantitative_Horizontal_Positional_Accuracy_Assessment:
+        Horizontal_Positional_Accuracy_Value: 15
+  Lineage:
+    Source_Information:
+      Source_Scale_Denominator: 5000
+      Type_of_Source_Media: physical model
+      Source_Citation_Abbreviation: RI Eneergy Office
+    Process_Step:
+      Process_Description: Metadata imported.- See accompnying study report
+      Process_Date: 2007
+    Process_Step:
+      Process_Description: Updated Point of Contact information for this dataset from "Andrew Dzykewicz" to "Shane White."
+      Process_Date: 20150601
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: Coastal Institute
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 132811
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3800
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999994
+            Longitude_of_Central_Meridian: -71.500000
+            Latitude_of_Projection_Origin: 41.083333
+            False_Easting: 328083.333333
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000
+          Ordinate_Resolution: 0.000000
+        Planar_Distance_Units: survey feet
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: RIWind_80m
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ID
+    Attribute:
+      Attribute_Label: GRIDCODE
+    Attribute:
+      Attribute_Label: VELOCITY
+      Attribute_Definition: Wind Speed Estimates in Meters/Second
+      Attribute_Value_Accuracy_Information:
+        Attribute_Value_Accuracy: unknown
+    Attribute:
+      Attribute_Label: Class
+      Attribute_Definition: Wind Power Class
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Velocity < 5.9m/s
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: 5.9 < V < 6.9 m/s
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: 6.9 < V < 7.5 m/s
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: 7.5 < V < 8.1 m/s
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: 8.1 < V < 8.6 m/s
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: 8.6 < V < 9.4 m/s
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: V > 9.4 m/s
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.
+Metadata_Reference_Information:
+  Metadata_Date: 20070926
+  Metadata_Review_Date: 20070905
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: RI Dept of Administration-Planning
+        Contact_Person: RIGIS Coordinator
+      Contact_Position: RIGIS Coordinator
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: RI Dept of Administration-Planning
+        City: Providence
+        State_or_Province: RI
+        Postal_Code: 02908
+        Country: USA
+      Contact_Voice_Telephone: 401 222-6483
+      Contact_Electronic_Mail_Address: rigis@admin.ri.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: none
+    Metadata_Security_Classification: Unclassified
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
